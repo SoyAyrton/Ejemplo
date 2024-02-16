@@ -1,1 +1,11 @@
+meme_dict = {
+    "No scope": "Significa sin mirilla y es un término muy habitual en los shooter en primera persona o FPS,"
+        "GG": "Good game del ingles buena partida se simplifica con un universal gg y se dirige tanto a los compañeros de equipo,"
+        "PvP": "Es la abreviatura de Player versus Player/People versus People (JcJ: Jugador contra Jugador),"
+        }
 
+word = input("Por favor escribir una palabra moderna que no entiendes en mayúsculas")
+if word in meme_dict.keys():
+   print(meme_dict[word])
+else:
+    print("Yo no se lol")
